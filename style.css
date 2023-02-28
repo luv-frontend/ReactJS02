@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 1rem;
+}
+.My-Magazine {
+  font-size: 1.5rem;
+}
+
+.cardA a {
+    margin-bottom: 1rem;
+    color: blue;
+}
+
+.FrogImage {
+  width: 100%;
+  height: 100%;
+}
+.Table {
+  width: auto;
+}
