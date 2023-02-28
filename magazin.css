@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    list-style-type: none;
+
+}
+
+nav>li {
+    margin-right: 10px
+}
+
+a {
+    text-decoration: none;
+}
+
+figure {
+    position: relative;
+    margin-left: 0px;
+}
+
+figure {
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.vanban {
+    width: 100%;
+}
+
+.tdhead {
+    padding-left: 100px;
+}
