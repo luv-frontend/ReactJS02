@@ -1,0 +1,70 @@
+
+header {
+    background-color: rgb(47, 46, 46);
+    color: white;
+    width: 100%;
+   
+}
+h1{
+    margin-left: 15px;
+}
+nav *{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    margin-left: 10px; 
+}
+
+section{
+    height: 700px;
+    width: 1200px;
+}
+article{
+   
+    height: 330px;
+    align-items: center;
+    padding-left: 130px;
+
+}
+
+.product-new,.product-fea  {
+    text-align: center;
+    width: 33,33%;
+    height: 260px;    
+    float:left;
+    box-shadow: rgb(133, 131, 131) 2px 5px 5px;
+    margin-left: 10px;
+    transition: transform .2s; 
+    
+}
+.product-new:hover{
+    transform: scale(1.1);
+}
+.product-fea:hover{
+    transform: scale(1.1);
+}
+
+.produ-item{
+    line-height: 10px;
+}
+.produ-item > b{font-size: 18px;}
+.produ-item > p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: greenyellow;
+}
+
+
+
+
+footer *{
+    vertical-align: middle;
+    height: 30px;
+    background-color: rgb(47, 46, 46);
+    color: white;
+   text-align: center;
+   padding-top: 15px;
+}
+
+
+
