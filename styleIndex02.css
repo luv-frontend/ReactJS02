@@ -1,0 +1,51 @@
+header {
+  padding-left: 1rem;
+  background-color: rgba(0, 0, 0, 0.866);
+  color: white;
+}
+.menu span {
+  padding-right: 1rem;
+}
+/* ================== Menu =================== */
+img {
+    
+    width: 400px;height: 200px;
+    object-fit: cover;
+}
+.title {
+    margin-left: 110px;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.729);
+  width: 100%;
+  margin-bottom: 20px;
+}
+.img-title {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+.item {
+    margin-left: 20px;
+    width: 28%;
+    display: inline-block;
+    box-shadow: 20px 20px 50px grey;
+
+}
+.information {
+    display: block;
+    margin-left: -330px;
+    line-height: 0;
+}
+.information p {
+    color: red;
+}
+/* ================ container =============== */
+Footer {
+  background-color: rgba(0, 0, 0, 0.866);
+  padding: 0.5rem;
+  text-align: center;
+  color: white;
+}
+/* ================ footer =============== */
+
