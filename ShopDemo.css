@@ -1,0 +1,146 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+/* Style cho header */
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav img {
+    height: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Style cho main content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+    padding-top: 100px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+  
+  section div > div {
+    flex-basis: calc(33.33% - 20px);
+  }
+  section > div > div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+  }
+  section div img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  section div h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  section div p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #FFA500;
+  }
+
+  .product {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); /* thêm đổ bóng */
+    transition: all 0.3s ease-in-out; /* thêm hiệu ứng chuyển động */
+    margin-bottom: 20px;
+
+} 
+.product:hover {
+    transform: scale(1.05); /* thay đổi kích thước sản phẩm khi hover */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); /* tăng độ bóng khi hover */
+  }
+  
+  /* Style cho footer */
+  footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+  }
+  
