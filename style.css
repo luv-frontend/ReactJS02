@@ -1,0 +1,26 @@
+/* header */
+header {   
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;  
+    padding-left: 1%;
+}
+/* body */
+article{ 
+    max-width: 90%;
+}
+.gridItem{
+    display: flex;
+    justify-content: space-evenly
+}
+.item{
+    margin: 1%;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+/* footer */
+footer {   
+    padding: 1%;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;  
+    padding-left: 1%;
+    text-align: center;
+}
