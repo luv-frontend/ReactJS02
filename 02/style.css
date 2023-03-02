@@ -1,0 +1,103 @@
+*
+{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+/* Phần chính có chiều rộng tối đa 1200px và được căn giữa theo chiều ngang */
+.container{
+   
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 96px;
+}
+/* Các liên kết điều hướng đc đặt cách đều nhau và được tạo bởi dạng nút hoặc liên kết văn bản */
+nav{
+    padding: 10px 0;
+}
+nav ul {
+    margin-bottom: 15px;
+}
+.navigation li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigation li a:hover{
+    color: white;
+}
+/*  */
+
+header{
+    background: rgb(255, 212, 0);
+    border-radius: 0 0  25px 25px;
+    margin-bottom: 15px;
+}
+.logo-title img{
+   padding: 5px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    list-style-type: none;
+    
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+section{
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin: 5px;
+   border-radius: 25px;
+   background: rgb(246, 84, 120);
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+}
+/* Mỗi thẻ là 1 phần tử khối có chiều rộng 33.33% để hiển thị 3 thẻ mỗi hàng */
+/* box-shadow: tạo bóng mờ, có một số phần đệm để phân tách */
+.product-card{
+    max-width: 33.3333%;
+    background: white;
+    padding: 35px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px #c8efd3;
+
+}
+.product-card p{
+    text-align: center;
+
+}
+.product-card .price{
+    color: red;
+}
+.title-product{
+    font-size: 20px;
+}
+.title{
+    margin: 20px 0;
+}
+.title h1{
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+
+/* Chân trang có màu tối mà chữ màu trắng, cố định cuối trang */
+footer{
+    
+    background: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    max-width: 100%;
+    border-radius: 5px;
+}
