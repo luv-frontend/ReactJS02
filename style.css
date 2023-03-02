@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: monospace;
+}
+.header_nav {
+  background-color: #333333;
+  width: 100%;
+  height: 10rem;
+  padding: 1.5rem;
+}
+
+.header_nav h1 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 0.7rem;
+}
+
+.nav_menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-right: 0.7rem;
+  opacity: 0.7;
+}
+
+.nav_menu a:hover {
+  opacity: 1;
+}
+
+main {
+  /* border: 1px solid red; */
+  height: 200vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+section h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+
+}
+
+.container {
+  display: flex;
+}
+
+.product {
+  box-shadow: 0px 0px 2px 0.5px rgba(0, 0, 0, 0.50);
+  transition: all 0.3s ease-in; 
+  margin-bottom: 2rem;
+}
+.product:hover {
+  transform: translateY(1.5rem); 
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75); 
+}
+.product img {
+  max-width: 100%;
+  width: calc(100% / 33.33%);
+  padding: 1rem;
+}
+
+.product h3 {
+  font-size: 2rem;
+  padding: 0.5rem 0.5rem;
+  padding: 1rem;
+}
+
+.product p {
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 1rem;
+  color: red;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+  background-color: #333;
+  font-size: 3rem;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+}
