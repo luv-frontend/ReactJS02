@@ -1,0 +1,40 @@
+header {
+    background-color: #291C1C;
+    color: white;
+    padding: 10px 0 5px 10px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+} 
+
+nav ul {
+    list-style-type: none;
+    display:flex;
+}
+nav ul li {
+    margin: 5px 10px;
+    padding: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.product {
+    display: flex;
+}
+.product-card {
+    max-width: 33.33%;
+    margin: 5px 10px;
+    box-shadow: 1px 1px rgb(111, 110, 110);
+}
+
+footer {
+    background-color:#291C1C ;
+    color:white;
+    text-align: center;
+    padding: 15px 15px;
+}
