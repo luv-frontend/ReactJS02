@@ -4,6 +4,10 @@ header {
     color: aliceblue;  
     padding-left: 1%;
 }
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
 /* body */
 article{ 
     max-width: 90%;
@@ -15,6 +19,9 @@ article{
 .item{
     margin: 1%;
     box-shadow: 1px 1px 1px 1px grey;
+}
+img{
+    width: 100%;
 }
 /* footer */
 footer {   
