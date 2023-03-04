@@ -1,0 +1,129 @@
+/* header */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    background-color: aqua;
+}
+
+.top-header {
+    background-color: rgb(0, 0, 0);
+}
+
+.text-greentea {
+    color: #40DDB6;
+}
+
+.fa-brands {
+    padding-left: 5px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 105px;
+    left: 2%;
+    top: 93px;
+    justify-content: space-evenly
+}
+
+.text-purple {
+    color: #6B77E5;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.content-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+}
+.content-inner {
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.button-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-group .btn {
+    margin-right: 20px;
+  }
+  
+  .btn-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #40DDB6;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-play:hover {
+    background-color: #30c5a1;
+  }
+  
+  .btn-play i {
+    font-size: 30px;
+    margin-left: 2px;
+  }
+  .content-photo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background-color: rgba(244, 244,244 , 0.8);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
