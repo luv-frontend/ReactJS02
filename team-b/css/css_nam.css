@@ -1,0 +1,233 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    /*overflow-x: hidden;*/
+    font-family: 'Inter', sans-serif;
+
+}
+:root{
+    --primary-color: #40DDB6;
+    --secondary-color: #6B77E5;
+    --text-title-color: #37393F;
+    --text-color: #7D7D7D;
+
+}
+.c-primary-color{
+    color: var(--primary-color);
+}
+.c-secondary-color{
+    color: var(--secondary-color);
+}
+.c-text-title-color{
+    color: var(--text-title-color);
+}
+.c-text-color{
+    color: var(--text-color);
+}
+a{
+    text-decoration: none;
+}
+/*header*/
+.top-navigation{
+
+    background-color: #37393F;
+
+}
+.top-navigation>div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 7.5px 0;
+}
+.top-navigation ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top-navigation ul li{
+    margin: auto;
+}
+.top-navigation ul li:first-child{
+    margin-right: 40px;
+}
+.top-navigation ul li a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    transition: .2s;
+
+}
+.top-navigation ul li a:hover{
+    opacity: .8;
+    transition: .2s;
+}
+.top-navigation p{
+    padding-left: 8px;
+}
+.top-navigation-right ul li:last-child a{
+    display: inline-block;
+
+}
+.top-navigation-right ul li:last-child a:not(:last-child){
+    margin-right: 12px;
+
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: .2s;
+    background-color: #FFFFFF;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 90px;
+}
+#heading{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+    padding: 38px 0;
+}
+
+#heading .box-about ul li{
+    display: inline-block;
+}
+#heading .box-about ul li a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--text-title-color);
+    text-decoration: none;
+    transition: .2s;
+
+}
+#heading .box-about ul li:not(:last-child){
+    margin-right: 24px;
+}
+#heading .box-about ul li:last-child a{
+    background-color: var(--secondary-color);
+    padding: 22px 35px;
+    color: #FFFFFF;
+}
+#heading .box-about ul li a:hover{
+    opacity: .8;
+    transition: .2s;
+}
+.box-banner{
+    max-width: 1920px;
+    margin: auto;
+}
+.box-banner-inner{
+    position: relative;
+    padding-bottom: 58%;
+    overflow: hidden;
+}
+.box-banner-inner>img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-banner-content{
+    position: absolute;
+    background: rgba(55, 57, 63, 0.91);
+    backdrop-filter: blur(9.5px);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 60%;
+}
+.banner-content-inner{
+    margin: 0 120px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner-content-inner>span:first-child>div{
+    width: 11px;
+    height: 11px;
+    background-color: var(--primary-color);
+    display: inline-block;
+    margin-right: 6px;
+}
+.banner-content-inner>span:first-child{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 150%;
+}
+.banner-content-inner h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+    margin: 10px 0;
+}
+.banner-content-inner p{
+    font-size: 18px;
+    color: #B9B9B9;
+    line-height: 150%;
+    font-weight: 500;
+}
+.banner-button{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+.banner-button-consule a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #37393F;
+    padding: 20px 28px;
+    background-color: var(--primary-color);
+    transition: .2s;
+
+}
+.banner-button-consule a:hover{
+    color: var(--primary-color);
+    background-color: #FFFFFF;
+    transition: .2s;
+}
+.banner-button-watch a{
+    margin: auto;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+}
+.banner-button-watch a:hover{
+    transition: .2s;
+    opacity: .8;
+}
+.banner-button-watch a>div{
+    margin: auto 10px;
+}
+.banner-button>div{
+    margin: auto 0;
+}
+.banner-button .banner-button-watch{
+    margin-left: 30px;
+}
+@media (max-width: 1600px) {
+    .banner-button .banner-button-watch{
+        margin-top: 32px;
+        margin-left: 0;
+    }
+}
+/*footer*/
+.footer{
+    background-color: #37393F;
+    padding: 95px 0;
+}
+.footer-inner{
+    max-width: 1200px;
+    margin: auto;
+}
