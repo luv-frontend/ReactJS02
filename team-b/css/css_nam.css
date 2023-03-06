@@ -104,12 +104,35 @@ header{
     margin: auto;
     max-width: 1200px;
     padding: 38px 0;
+    position: relative;
+
 }
 
-#heading .box-about ul li{
+#heading .box-about>ul>li{
     display: inline-block;
 }
-#heading .box-about ul li a{
+
+#heading .box-about>ul>li ul{
+    display: none;
+    position: absolute;
+    top: 120px;
+    width: 120px;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#heading .box-about>ul>li:hover ul{
+    display: block;
+}
+#heading .box-about>ul>li ul li:first-child{
+    margin-bottom: 12px;
+}
+#heading .box-about>ul>li ul li a{
+    color: var(--text-title-color);
+}
+#heading .box-about>ul>li>a{
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -118,10 +141,10 @@ header{
     transition: .2s;
 
 }
-#heading .box-about ul li:not(:last-child){
+#heading .box-about>ul>li:not(:last-child){
     margin-right: 24px;
 }
-#heading .box-about ul li:last-child a{
+#heading .box-about>ul>li:last-child a{
     background-color: var(--secondary-color);
     padding: 22px 35px;
     color: #FFFFFF;
