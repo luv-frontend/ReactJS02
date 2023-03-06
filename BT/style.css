@@ -1,0 +1,109 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container1 {
+    display: flex;
+    margin: auto;
+}
+.content1 {
+    background-color: #37393F;
+    color: white;
+ 
+    top: 50%;
+    width: 45%;
+    left: 50%;
+    display: flex;
+}
+.img {
+    width: 45%;
+    height: 100%;
+    
+}
+.content1_1 {
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 70px;
+    color: white;
+}
+
+.img1 img {
+    margin: 5px 10px;
+    margin :autol;
+    position:inherit;
+}
+
+
+
+.bt1 {
+    background-color:#40DDB6; 
+    height: 70px;width: 300px; 
+    color: white; 
+    border: none;
+    margin-left: 300px;
+    font-size: 20px;
+
+}
+.bt1:hover {
+    background-color: aqua;
+}
+.content2 {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.container3 {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+.card1 {
+    max-width: 33.33%;
+    margin: 5px 10px;
+   
+}
+
+.chart {
+    display: flex;
+}
+
+.tb1 td {
+    padding:10px 10px;
+}
+
+.container4 {
+    background-color: #6B77E5;
+    color: white;
+    margin-top: 200px;
+    display: flex;
+}
+
+.content3 {
+    width: 40%;
+    margin-left: 250px;
+    padding:50px;
+   
+}
+
+.content3_1 {
+    display: flex;
+    background-color: #40DDB6;
+    width: 100%;
+}
+
+.content4 {
+    width: 50%;
+    margin-left: 250px;
+    padding:50px;
+}
+
+
+input {
+    width: 150%;
+    padding: 15px 20px;
+
+    
+}
