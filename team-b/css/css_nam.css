@@ -657,3 +657,19 @@ ul.article-info li:last-child{
     opacity: .8;
     transition: .2s;
 }
+/*fix trung*/
+.content_heading{
+    max-width: 1920px;
+    margin: auto;
+}
+.content_heading span {
+
+    margin: auto;
+}
+.img_project{
+    max-width: 1920px;
+    margin: auto;
+}
+.booknow{
+    margin: auto;
+}
