@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+    max-height: 100%;
+  }
+  
+  /* >>>> Project */
+  
+  .about_project {
+    /* margin: 170px 479px 0 352px; */
+    margin: 132px 1012px 0 200px;
+    position: absolute;
+  }
+  
+  .about_project span {
+    width: 98px;
+    height: 22px;
+    margin-left: 15px;
+  }
+  
+  .about_project span::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 0px;
+    top: 5.5px;
+    background: #40ddb6;
+  }
+  
+  .content_heading span {
+    width: 98px;
+    height: 22px;
+    left: 18px;
+    top: 0px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+  
+    color: #37393f;
+  }
+  
+  .sub_text h2 {
+    display: inline-block;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #37393f;
+    width: 555px;
+    height: 96px;
+  }
+  
+  .btn {
+    position: absolute;
+    right: 348px;
+    top: 160px;
+    left: 1386px;
+  }
+  
+  .content_btn {
+      position: relative;
+    top: 1020px;
+    display: flex;
+    float: right;
+    margin-right: 80px;
+    padding: 21px 45px 22px;
+    gap: 10px;
+    width: 185px;
+    height: 65px;
+    background-color: #40ddb6;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.8;
+    border-radius: 5px;
+  }
+  
+  .content_btn:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .img_project {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* max-width: 1920px; */
+  }
+  
+  .img_project img {
+    margin-top: 300px;
+    /* justify-content: space-evenly; */
+    width: 400px;
+    height: 420px;
+    transition: 0.2s;
+    transform: scale(0.9);
+    border-radius: 3px;
+    opacity: 0.8;
+  }
+  
+  .img_project img:hover {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  /* >>> Testimonial */
+  .testimonial {
+    display: flex;
+    width: 1220px;
+    height: 599px;
+    /* border-top: 1px solid #C5C5C5; */
+    margin: 280px auto 0px;
+    position: relative;
+  }
+  
+  .testimonial::before {
+    content: "";
+    position: absolute;
+    top: -140px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #c5c5c5;
+  }
+  
+  .title {
+    display: block;
+    width: 411px;
+    height: 459px;
+  }
+  
+  .title .test {
+    position: relative;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #37393f;
+    margin-left: 20px;
+  }
+  
+  .title span::after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    left: 0px;
+    top: 5px;
+    margin-left: -20px;
+    background: #40ddb6;
+  }
+  
+  .book-now span::after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    left: 0px;
+    top: 5px;
+    margin-left: 0px;
+    background: #40ddb6;
+  }
+  
+  #title2 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-left: 20px;
+  }
+  
+  .title .test1 {
+    width: 243px;
+    height: 96px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #37393f;
+  }
+  
+  .title .test2 {
+    width: 324px;
+    height: 78px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 146.19%;
+    /* or 26px */
+  
+    color: #7d7d7d;
+  }
+  
+  .content_nata {
+    flex-direction: row;
+    /* align-items: flex-start; */
+    padding: 50px 37px;
+    gap: 10px;
+    width: 411px;
+    height: 459px;
+    position: relative;
+    background: #f7f7f7;
+  }
+  
+  .nata_box h4 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    right: 95px;
+  }
+  
+  .nata_box span {
+    position: absolute;
+    top: 84px;
+    right: 189px;
+    padding-top: 5px;
+  }
+  
+  .start-gold {
+    position: absolute;
+    right: 151px;
+    top: 111px;
+    color: #ffa722;
+  }
+  
+  .content_nata img {
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+  }
+  
+  .content_nata h4 {
+    display: block;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+  
+    color: #37393f;
+    width: 162px;
+    height: 30px;
+  }
+  
+  .content_nata span {
+    display: block;
+    width: 68px;
+    height: 22px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135.19%;
+    /* identical to box height, or 22px */
+  
+    color: #7d7d7d;
+  }
+  
+  .content_nata p {
+    width: 337px;
+    height: 224px;
+  
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 146.19%;
+    /* or 32px */
+  
+    color: #7d7d7d;
+  }
+  
+  .box2 {
+    margin-left: 36px;
+    width: 411px;
+    height: 343px;
+    background: #f7f7f7;
+  }
+  
+  /* Book Now */
+  
+  .booknow {
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    height: 1135px;
+    background-color: #6b77e5;
+  }
+  
+  .booknow_content {
+    position: absolute;
+    width: 100%;
+    max-width: 1222px;
+    height: 889px;
+    margin: 123px 150px;
+  }
+  
+  .title span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    font-weight: "Inter";
+    color: #fff;
+  }
+  
+  .title h2 {
+    width: 426px;
+    height: 96px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    color: #ffffff;
+  }
+  
+  .title p {
+    width: 522px;
+    height: 78px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 146.19%;
+    /* or 26px */
+  
+    color: #ffffff;
+  }
+  
+  .book-now {
+    display: block;
+    height: auto;
+  }
+  
+  .project_point {
+    position: relative;
+    width: 587px;
+    height: 198px;
+    background-color: #40ddb6;
+  }
+  
+  .score {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #6b77e5;
+    border-radius: 50%;
+  }
+  
+  .score_center {
+    margin-top: 34px;
+    padding: 35px 23px 35px 35px;
+  }
+  
+  .score span {
+    display: flex;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1;
+    color: #fff;
+  }
+  
+  .score p {
+    display: flex;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    color: #fff;
+  }
+  
+  .point {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    width: 366px;
+    height: 96px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 127%;
+    margin: 51px 35px 51px auto;
+  }
+  
+  .todo_plant {
+    width: 514px;
+    height: 341px;
+    color: #fff;
+    margin-top: 56px;
+  }
+  
+  .todo_plant i {
+    width: 27px;
+    height: 27px;
+    color: #40ddb6;
+    outline: none;
+  }
+  .todo_plant span {
+    width: 100px;
+    height: 33px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+  }
+  
+  .todo_plant p {
+    width: 471px;
+    height: 56px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 146.19%;
+    margin-left: 30px;
+  }
+  
+  .form_user {
+    position: absolute;
+    top: 0;
+    right: 166px;
+    line-height: 1;
+  }
+  
+  /* Form User */
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type='date'],
+  input[type='time'],
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    display: block;
+    height: 65px;
+    width: 464px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 400;
+    font-family: 'Inter';
+    padding-left: 33px;
+  }
+  input[type="date"],
+  input[type="time"] {
+    display: inline-block;
+    padding-left: 33px;
+    width: 49.5%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  input[type="submit"] {
+    font-family: 'Inter';
+    background-color: #40ddb6;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 184px;
+    height: 65px;
+    color: #37393f;
+    padding: 21px 61px 32px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    opacity: 0.8;
+  }
+  input[type="submit"]:hover {
+    opacity: 1;
+  }
+  
+  .form_text {
+    position: absolute;
+    top: -130px;
+    width: 580px;
+    height: 725px;
+    background-color: #fff;
+    margin-top: 287px;
+    padding: 58px;
+  }
+  
