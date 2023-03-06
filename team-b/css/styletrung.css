@@ -520,6 +520,10 @@
   input[type="submit"]:hover {
     opacity: 1;
   }
+
+#message {
+    height: 140px;
+  }
   
   .form_text {
     position: absolute;
