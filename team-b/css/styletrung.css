@@ -447,6 +447,12 @@
     font-size: 18px;
     line-height: 146.19%;
     margin-left: 30px;
+      
+    border-bottom: 1px solid #ccc;
+  }
+
+.todo_plant .no_border {
+    border: transparent;
   }
   
   .form_user {
