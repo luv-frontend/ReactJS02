@@ -1,0 +1,110 @@
+html,body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#iphone{
+    background: url(./image/iphone.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px 812px !important;
+    width: 375px;
+    height: 812px;
+    margin: 60px auto;
+    position: relative;
+    padding: 28px 0;
+}
+.calculator{
+    margin: 24px;
+    /*background-color: black;*/
+}
+.calculator_tab{
+    margin-top: 32px;
+}
+.calculator_tab ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+.calculator_tab ul li{
+    flex-basis: 50%;
+    padding: 14px 0;
+    text-align: center;
+    background-color: #2D3440;;
+}
+.calculator_tab ul li a{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+.calculator_tab li:first-child{
+    background-color: #0060E5;
+}
+.times{
+    text-align: right;
+    margin-top: 60px;
+
+}
+.times-inner{
+    padding: 4px 16px;
+    border-radius: 100px;
+    background-color: #363E4C;
+    color: #CBE1FF;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    display: unset;
+}
+.result{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.calculating{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background-color: #20252E;
+    margin-top: 24px;
+}
+.calculating span{
+    color: #CBE1FF;
+
+}
+.number-calculation{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.number-calculation>button{
+    flex-basis: 25%;
+
+    background: #242933;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    text-align: center;
+    color: #CBE1FF;
+    padding: 24px 0;
+    border: 1px solid black;
+}
+.number-calculation .symbol-row{
+    background-color: #363E4D;
+}
+.number-calculation .symbol-column{
+    background-color: #0060E5;;
+}
+.number-calculation .zero{
+    flex-basis: 50%;
+}
+.number-calculation>button:hover{
+    opacity: .6;
+    transition: .2s;
+}
