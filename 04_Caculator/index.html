@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0ae8a34d2.js" crossorigin="anonymous"></script>
+    <title>Caculator</title>
+</head>
+
+<body>
+    <!-- Viền -->
+    <div class="rectangle-container">
+        <!--  -->
+        <div class="container">
+            <!--  -->
+            <div class="home-indicator">
+                <div class="home-indicator__left">
+                    <p>9:41</p>
+                </div>
+                <div class="home-indicator__notch">
+
+                </div>
+                <div class="home-indicator__right">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-battery-full"></i>
+                </div>
+            </div>
+
+            <div class="container__btn">
+                <button class="button1 container__btn--left"><span>Caculator</span> </button>
+                <button class="button1 container__btn--right">Converter</button>
+            </div>
+
+            <!-- Form caculator -->
+            <div class="caculator">
+                <div class="caculator-form">
+                    <form>
+                        <div>
+                            <input type="text" name="display" placeholder="19,134" readonly>
+                        </div>
+                        <div>
+                            <input type="text" name="result" placeholder="12,345 + 6,789" readonly>
+                        </div>
+                        <div class="btn">
+                            <input type="button" value="AC" class="btn__top__left bg-3">
+                            <input type="button" value="+/-" class="bg-3">
+                            <input type="button" value="%" class="bg-3">
+                            <input type="button" value="/" class="btn__top__right bg-primary">
+                        </div>
+                        <div class="btn ">
+                            <input type="button" value="7" class="bg-defaul">
+                            <input type="button" value="8" class="bg-defaul">
+                            <input type="button" value="9" class="bg-defaul">
+                            <input type="button" value="X" class="bg-primary">
+                        </div>
+                        <div class="btn">
+                            <input type="button" value="4" class="bg-defaul">
+                            <input type="button" value="5" class="bg-defaul">
+                            <input type="button" value="6" class="bg-defaul">
+                            <input type="button" value="-" class="bg-primary">
+                        </div>
+                        <div class="btn">
+                            <input type="button" value="1" class="bg-defaul">
+                            <input type="button" value="2" class="bg-defaul">
+                            <input type="button" value="3" class="bg-defaul">
+                            <input type="button" value="+" class="bg-primary">
+                        </div>
+                        <div class="btn">
+                            <input type="button" value="0" class="btn-double btn__bottom__left bg-defaul">
+                            <input type="button" value="." class="bg-defaul">
+                            <input type="button" value="=" class="btn__bottom__right bg-primary">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
