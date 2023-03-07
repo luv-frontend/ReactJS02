@@ -10,7 +10,6 @@ body {
 }
 
 .rectangle-container {
-
     width: 391px;
     height: 828px;
     background: linear-gradient(180deg, #FFFFFF 0%, #E6EAF2 100%);
@@ -19,27 +18,19 @@ body {
     margin: 74px auto;
     box-shadow:
         0 0 20px 1px rgb(156, 155, 155);
-
 }
 
 .container {
-
     width: 100%;
     height: 100%;
-
     background: #161A20;
-
     border-radius: 34px;
-
 }
 
 .home-indicator {
     display: flex;
     height: 44px;
     text-align: center;
-
-
-
 }
 
 .home-indicator__left,
@@ -48,15 +39,15 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     color: white;
-
 }
-.home-indicator__right__icon{
+
+.home-indicator__right__icon {
     display: flex;
     justify-content: space-around;
 }
+
 .home-indicator__notch {
     width: 60%;
-
     height: 30px;
     background: black;
     border-radius: 0 0 20px 20px;
@@ -68,24 +59,19 @@ body {
     /* text-align: center;
     align-items: center;*/
     justify-content: center;
-
 }
 
 .button1 {
-
     width: 172px;
     height: 40px;
-
     border: none;
     color: #ffffff;
-
 }
 
 .container__btn--left {
     border-radius: 4px 0 0 4px;
     background: #0060E6;
     border: none;
-
 }
 
 .container__btn--right {
@@ -106,15 +92,10 @@ body {
     text-align: right;
     height: 48px;
     background: #20252E;
-    ;
-
 }
 
 .container-btn-knot {
     padding: 15px;
-
-
-
 }
 
 .container-btn-knot-row {
@@ -123,9 +104,7 @@ body {
 
 .button2 {
     /* display: inline-block; */
-
     width: 83px;
-    ;
     height: 79px;
     padding: 28px 33px;
     text-align: center;
@@ -175,8 +154,6 @@ body {
     border-radius: 2px;
     margin: 2px;
     color: white;
-
-
 }
 
 .btn .btn-double {
@@ -195,7 +172,6 @@ form div input[name="display"] {
 form div input[name="display"],
 form div input[name="result"] {
     width: 100%;
-
     text-align: end;
     color: white;
     padding: 0 5px;
