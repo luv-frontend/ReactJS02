@@ -50,7 +50,10 @@ body {
     color: white;
 
 }
-
+.home-indicator__right__icon{
+    display: flex;
+    justify-content: space-around;
+}
 .home-indicator__notch {
     width: 60%;
 
