@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background: #ffffff;
+}
+body {
+  max-width: 1920px;
+  margin: 0;
+  padding: 0;
+  /* background-color: #0b0101; */
+}
+:root {
+  --secondary-color: #161a20;
+  --primary-color: #0060e5;
+  --background-color: #363e4d;
+  --Text-color: #ffffff;
+  --Text-color2: #cbe1ff;
+}
+.container {
+  position: relative;
+  max-width: 1920px;
+  height: 960px;
+
+  /* background-color: var(--background-color); */
+}
+/* Header */
+/* ---------Ipgone 13 mini--------------- */
+.Iphone-13-nimi {
+  position: absolute;
+  width: 375px;
+  height: 812px;
+  left: 440px;
+  top: 74px;
+
+  background: var(--secondary-color);
+  border-radius: 34px;
+}
+/* --------------------------------------- */
+.Iphone-X {
+  position: absolute;
+  width: 375px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+}
+/* --------------- */
+.Left-side-header {
+  margin-top: -6px;
+  margin-left: 20px;
+}
+.Left-side-header > p {
+  width: 54px;
+  height: 21px;
+  color: var(--Text-color);
+}
+/* --------------- */
+.Right-side-header {
+  position: absolute;
+  width: 66.66px;
+  height: 16.34px;
+  left: 293.67px;
+  top: 17.33px;
+  margin-left: 5px;
+  color: var(--Text-color);
+  font-size: 15px;
+}
+
+/* .Right-side-img {
+  position: absolute;
+  width: 66.66px;
+  height: 11.34px;
+  left: 293.67px;
+  top: 17.33px;
+} */
+/* --------------- */
+.Notch-side-header {
+  position: absolute;
+  width: 219px;
+  height: 35px;
+  left: 78px;
+  top: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: var(--background-color);
+}
+/* --------------- */
+/* End Header */
+
+/* main */
+.Group-58 {
+  position: absolute;
+  width: 193px;
+  height: 105px;
+  left: 166px;
+  top: 157px;
+}
+.Frame-1-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 16px 4px;
+  gap: 8px;
+
+  position: absolute;
+  width: 95px;
+  height: 25px;
+  left: 98px;
+  top: 0;
+
+  background: var(--background-color);
+  border-radius: 100px;
+}
+.Frame-1-time>i {
+  color: var(--Text-color2);
+}
+.Frame-1-time>p {
+  color: var(--Text-color2);
+}
+.Group-58-text {
+  position: absolute;
+  width: 193px;
+  height: 64px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  /* identical to box height, or 64px */
+
+  text-align: right;
+
+  color: #ffffff;
+}
+/* ----------------------------------------------------------------- */
+.Caculator-Converter {
+  width: 375px;
+  height: 40px;
+  text-align: center;
+}
+.Caculator-header {
+  position: absolute;
+  width: 172px;
+  height: 40px;
+  left: 16px;
+  top: 60px;
+
+  background: #0060e6;
+  border-radius: 4px 0px 0px 4px;
+}
+.Converter-header {
+  position: absolute;
+  width: 172px;
+  height: 40px;
+  left: 187px;
+  top: 60px;
+
+  background: #2d3440;
+  border-radius: 0px 4px 4px 0px;
+}
+.Caculator-header > h4 {
+  position: absolute;
+  top: -20px;
+  left: 37px;
+  color: var(--Text-color);
+}
+.Converter-header > h4 {
+  position: absolute;
+  top: -20px;
+  left: 35px;
+  color: var(--Text-color);
+}
+/* ---------------------------------------------- */
+.Grounp-57 {
+  position: absolute;
+  width: 375px;
+  height: 48px;
+  left: 0px;
+  top: 287px;
+  background-color: var(--background-color);
+  border: 2px solid var(--background-color);
+}
+.Grounp-38 {
+  display: flex;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 16px;
+  top: 10%;
+}
+.Grounp-38 > i {
+  position: absolute;
+  left: 5.87%;
+  right: 90.78%;
+  top: 110.21%;
+  bottom: 59.03%;
+
+  color: var(--Text-color2);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.Grounp-57 > p {
+  position: absolute;
+  width: 155px;
+  height: 24px;
+  right: 16px;
+  top: -30%;
+
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+  color: var(--Text-color2);
+  text-align: right;
+}
+/* ------Number-math--------------------- */
+.Button-Number-math {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  left: 13px;
+  top: 345px;
+
+  /* background: var(--Text-color2); */
+}
+.Caculator-Number {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+}
+.Button-Number {
+  width: 32px;
+  /* padding: 15px; */
+  /* border: #161a20 1px solid; */
+  text-align: center;
+  color: var(--Text-color2);
+  background-color: var(--background-color);
+  font-size: 20px;
+}
+.Button-Number-secondary {
+  /* border: #161a20 1px solid; */
+  text-align: center;
+  color: var(--Text-color2);
+  font-size: 20px;
+  background-color: var(--primary-color);
+}
+/* End main */
+/* footer */
+.Home-Indicator {
+  position: absolute;
+  width: 375px;
+  height: 34px;
+  left: 0px;
+  top: 778px;
+}
+.Home-line {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2 + 0.5px);
+  bottom: 8px;
+
+  background: var(--Text-color);
+  border-radius: 100px;
+}
+/* End footer */
+/* ---------Background-16---------------- */
+/* .background-16 {
+  position: absolute;
+  width: 391px;
+  height: 828px;
+  left: 432px;
+  top: 66px;
+
+  background: linear-gradient(180deg, #ffffff 0%, #e6eaf2 100%);
+  border-radius: 40px;
+} */
