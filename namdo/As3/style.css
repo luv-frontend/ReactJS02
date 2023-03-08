@@ -71,6 +71,15 @@ html,body{
     background-color: #20252E;
     margin-top: 24px;
 }
+.calculating>button:first-child{
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
+.calculating>button:first-child:active{
+    background-color: #2D3440;
+}
 .calculating span{
     color: #CBE1FF;
 
@@ -95,6 +104,8 @@ html,body{
     padding: 24px 0;
     border: 1px solid black;
 }
+
+
 .number-calculation .symbol-row{
     background-color: #363E4D;
 }
@@ -107,4 +118,7 @@ html,body{
 .number-calculation>button:hover{
     opacity: .6;
     transition: .2s;
+}
+.number-calculation>button:active{
+    background-color: palevioletred;
 }
