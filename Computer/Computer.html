@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css">
+    <link rel="stylesheet" href="Computer.css">
+    <link rel="stylesheet" href="Computer1.css">
+
+</head>
+
+<body>
+    <div class="Calculator">
+        <div class="Calculator__changed">
+            <div class="tablinks" onclick="openTab(event, 'calculator')">Calculator</div>
+            <div class="tablinks" onclick="openTab(event, 'converter')">Converter</div>
+        </div>
+        <div id="calculator" class="tabcontent Calculator__item">
+            <div class="Calculator-input">
+                <input id="inputTinh" type="text" placeholder="0">
+            </div>
+            <div class="Calculator-kq">
+                <i class="fas fa-undo-alt"></i>
+                <input id="inputKQ" type="text" placeholder="0">
+            </div>
+            <div class="Calculator-btn ">
+                <div class="Calculator_row">
+                    <div id="btnAC" value="reset" class="Calculator_column Calculator_column--highlighted">AC</div>
+                    <div id="btnDoiDau" value="" class="Calculator_column Calculator_column--highlighted">+/-</div>
+                    <div id="btnPhanTram" value="%" class="Calculator_column Calculator_column--highlighted">%</div>
+                    <div id="btn/" value="/" class="Calculator_column Calculator_column--highlighted">/</div>
+                </div>
+                <div class="Calculator_row">
+                    <div id="btn7" value="7" class="Calculator_column">7</div>
+                    <div id="btn8" value="8" class="Calculator_column">8</div>
+                    <div id="btn9" value="9" class="Calculator_column">9</div>
+                    <div id="btnx" value="*" class="Calculator_column Calculator_column--highlighted">x</div>
+                </div>
+                <div class="Calculator_row">
+                    <div></div>
+                    <div id="btn4" value="4" class="Calculator_column">4</div>
+                    <div id="btn5" value="5" class="Calculator_column">5</div>
+                    <div id="btn6" value="6" class="Calculator_column">6</div>
+                    <div id="btnTru" value="-" class="Calculator_column Calculator_column--highlighted">-</div>
+                </div>
+                <div class="Calculator_row">
+                    <div id="btn1" value="1" class="Calculator_column">1</div>
+                    <div id="btn2" value="2" class="Calculator_column">2</div>
+                    <div id="btn3" value="3" class="Calculator_column">3</div>
+                    <div id="btnCong" value="+" class="Calculator_column Calculator_column--highlighted">+</div>
+                </div>
+
+                <div class="Calculator_row Calculator_row--number">
+                    <div id="btn0" value="0" class="Calculator_column Calculator_column--number">0</div>
+                    <div id="btnTT" value="." class="Calculator_column Calculator_column--decimal">.</div>
+                    <div id="btnBang" value="" onclick="bang(event)"
+                        class="Calculator_column Calculator_column--equal Calculator_column--highlighted">=</div>
+                </div>
+            </div>
+        </div>
+        <div id="converter" class="tabcontent Converter__item">
+            <div class="status">Length <i class="fas fa-caret-down"></i></div>
+            <div class="Converter__dv">
+                <div class="Converter__dv--item">
+                    <input id="feet" type="text" placeholder="0"> <span>ft <i class="fas fa-caret-down"></i></span>
+                </div>
+                <div class="Converter__dv--item">
+                    <input id="met" type="text" placeholder="0"> <span>m <i class="fas fa-caret-down"></i></span>
+                </div>
+            </div>
+            <div class="Converter__item--number">
+                <div class="Coverter__item--row">
+                    <div id="btnACCon" value onclick="del(event)"
+                        class="Converter__item--column Converter__item--column__CN">
+                        AC</div>
+                    <div id="exchanged" onclick="exchanged(event)"
+                        class="Converter__item--column Converter__item--column__CN">
+                        <i class="fas fa-retweet"></i>
+                    </div>
+                </div>
+                <div class="Coverter__item--row">
+                    <div value="7" class="Converter__item--column">7</div>
+                    <div value="8" class="Converter__item--column">8</div>
+                    <div value="9" class="Converter__item--column">9</div>
+                </div>
+                <div class="Coverter__item--row">
+                    <div value="4" class="Converter__item--column">4</div>
+                    <div value="5" class="Converter__item--column">5</div>
+                    <div value="6" class="Converter__item--column">6</div>
+                </div>
+                <div class="Coverter__item--row">
+                    <div value="1" class="Converter__item--column">1</div>
+                    <div value="2" class="Converter__item--column">2</div>
+                    <div value="3" class="Converter__item--column">3</div>
+                </div>
+                <div class="Coverter__item--row">
+                    <div value="." class="Converter__item--column">.</div>
+                    <div value="0" class="Converter__item--column">0</div>
+                    <div id="del" onclick="deleted()" class="Converter__item--column">
+                        <i class="fas fa-backspace"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+<script src="Computer.js"></script>
+<script src="ChangedTab.js"></script>
+
+</html>
