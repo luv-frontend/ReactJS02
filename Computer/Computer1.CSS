@@ -6,7 +6,7 @@
   
   .status {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin: 10px 0;
     color: var(--color-text);
     text-align: center;
   }
@@ -53,21 +53,18 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    padding: 0 15px;
   }
   
   .Coverter__item--row {
     display: flex;
     flex-direction: row;
     background-color: var(--color--layout);
-    margin: 10px 0;
-    padding: auto;
     width: 100%;
   }
   
   .Converter__item--column {
-    width: 70px;
-    height: 20px;
-    padding: 28px 33px;
+    height: 85px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -75,7 +72,7 @@
     color: var(--color-text);
     flex-basis: 0;
     flex-grow: 1;
-    margin:0 10px;
+    margin:5px 5px;
     border: none;
     border-radius: 5px;
     cursor: pointer;

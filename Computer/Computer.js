@@ -48,13 +48,13 @@ btnDoiDau.addEventListener('click', function () {
 
     // Nếu giá trị trên inputTinh là số dương và biến isPositive = true, thì đổi thành số âm
     if (inputTinhValue > 0 && isPositive) {
-        document.querySelector('#inputTinh').value = '-' + inputTinhValue;
+        document.querySelector('#inputKQ').value = '-' + inputTinhValue;
         isPositive = false;
 
     }
     // Nếu giá trị trên inputTinh là số âm và biến isPositive = false, thì đổi thành số dương
     else if (inputTinhValue < 0 && !isPositive) {
-        document.querySelector('#inputTinh').value = inputTinhValue.slice(1);
+        document.querySelector('#inputKQ').value = inputTinhValue.slice(1);
         isPositive = true;
 
 
@@ -75,6 +75,8 @@ function bang(event) {
     // Xóa giá trị trên inputTinh
     // document.querySelector('#inputTinh').value = '';
 
+
+
 };
 
 btnBang.addEventListener('click', bang);
@@ -87,7 +89,34 @@ btnAC.addEventListener('click', function () {
     document.querySelector('#inputTinh').value = '0';
     document.querySelector('#inputKQ').value = '0';
 });
+// Lưu trữ kết quả phép tính trước đó
+let previousResult = 0;
 
+// Lấy thẻ input và nút back
+const input = document.getElementById("inputTinh");
+const backButton = document.getElementById("btnBack");
+
+// Xử lý sự kiện khi người dùng bấm nút back
+backButton.addEventListener("click", function () {
+    // Lấy kết quả hiện tại trên input
+    const currentResult = input.value;
+
+    // Xóa kí tự cuối cùng của input
+    input.value = currentResult.slice(0, -1);
+
+    // Nếu input đã trống, hiển thị kết quả phép tính trước đó
+    if (input.value === "") {
+        input.value = previousResult.toString();
+    }
+});
+
+// Xử lý sự kiện khi người dùng nhập số
+input.addEventListener("input", function () {
+    // Lưu trữ kết quả hiện tại để sử dụng cho lần bấm back tiếp theo
+    previousResult = input.value;
+});
+
+// js đổi độ dài feet => meter
 // Lấy tất cả các phím
 const keys = document.querySelectorAll('.Converter__item--column:not(#exchange):not(#del):not(#btnACCon)');
 
@@ -110,7 +139,7 @@ function exchanged(event) {
     // Hiển thị giá trị đó trong ô met
     document.getElementById("met").value = metValue;
 }
-function del(event) {
+function btnACCon(event) {
     event.preventDefault();
     document.getElementById("feet").value = "";
     document.getElementById("met").value = "";
@@ -119,4 +148,6 @@ function del(event) {
 function deleted() {
     const input = document.getElementById('feet');
     input.value = input.value.slice(0, -1);
+
+
 }
