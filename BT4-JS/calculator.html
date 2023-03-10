@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+    
+</head>
+<body>
+    <div class="border-phone">
+    <div class="div-phone">
+        <div class="header-phone" >
+            <ul class="ul-header">
+                <li>9:41</li>
+                <li class="li-2"></li>
+                <li>
+                    <img src="img/Mobile Signalwifi.png">
+                    <img src="img/Wifi.png">
+                    <img src="img/Battery.png">
+                </li>
+                
+            </ul>
+            
+        </div> 
+        <div class="cal-con">
+            <div class="div-cal">Calculator</div>
+            <div class="div-con">Converter</div>
+        </div>
+        <div id="result-s">
+            <div class="div-history" >
+                <div class="history">
+                    <img class="his-img" onclick="" src="img/Vectorclock.png">
+                    <p id="his-value"></p>
+                </div>
+            </div>
+            <div class="div-output" >
+                <h1 id="result"></h1>
+            </div>
+        </div>
+        <div class="div-input" >
+            <img onclick="undo()" src="img/Vector.png">
+            <h2 id="input" ></h2>
+        </div>
+        <div class="box-button" id="operator">
+            <button class="item item-system" onclick="clean()">AC</button>
+            <button class="item item-system" onclick="change()" value="">+/-</button>
+            <button class="item item-system" onclick="percent()" value="">%</button>
+            <button class="item item-system item-system-chia" value="/">&divide</button>
+            <button class="item item-number" value="7">7</button>
+            <button class="item item-number" value="8">8</button>
+            <button class="item item-number" value="9">9</button>
+            <button class="item item-system item-system-nhan" value="*">x</button>
+            <button class="item item-number" value="4">4</button>
+            <button class="item item-number" value="5">5</button>
+            <button class="item item-number" value="6">6</button>
+            <button class="item item-system item-system-tru" value="-">&minus;</button>
+            <button class="item item-number" value="1">1</button>
+            <button class="item item-number"value="2">2</button>
+            <button class="item item-number"value="3">3</button>
+            <button class="item item-system item-system-cong" value="+">+</button>
+            <button class="item item-number0" value="0">0</button>
+            <button class="item item-dot"value=".">.</button>
+            <button class="item item-system item-system-bang" onclick="equal()" >=</button>
+        </div>
+        <div class="footer"> 
+            
+        </div>
+    </div>
+    </div>
+    <script src="calculator.js"></script>
+    
+</body>
+</html>

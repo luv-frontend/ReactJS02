@@ -1,0 +1,160 @@
+body{
+    max-width: 1200px;
+    padding: 0px;
+    margin: 0;
+    color: aliceblue;
+
+}
+
+.div-phone{
+    height: 750px;
+    width: 375px;
+    border-radius: 34px;
+    margin: auto;
+    background-color: #161A20;
+    position: relative;
+    flex-direction: column;
+    
+}
+.ul-header{
+    display: flex;
+    height: 44px;
+    list-style-type: none;
+    align-items: baseline;
+    margin: 0 auto;
+}
+div#result {
+    display: flex;
+    flex-direction: column;
+}
+
+.li-2{
+        width: 219px;
+        height: 30px;
+        background-color:  #000000;
+        border-radius:  0 0 34px 34px;
+
+        
+
+}
+
+
+
+.cal-con{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.div-cal, .div-con{
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-cal{
+    background-color: #0060E5;
+    border-radius: 4px 0px 0px 4px;
+    
+}
+.div-con{
+    background-color: #2D3440;
+    border-radius: 0px 4px 4px 0px;;
+
+}
+.div-input>i{
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.div-history{
+    width: 120px; 
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+    justify-content: flex-end;
+    margin-right: 20px;
+
+}
+h1{
+    margin-right: 20px;
+}
+.history {
+    width: 120px;
+    height: 30px;
+    background: #363E4C;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.div-history>i{
+    vertical-align: middle;
+    margin-left: 2px    ;
+}
+.div-output{
+    height: 120px;
+    display: flex;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div-input{
+    height: 50px;
+    background: #20252E;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+
+}
+.box-button{
+    text-align: center;
+    margin: 10px 0 70px 0;
+
+}
+
+.item{
+    width: 80px; 
+	height: 60px; 
+	margin-top: 5px; 
+	font-size: 20px; 
+	color: #CBE1FF;
+    background: #242933;
+	border: none; 
+	cursor: pointer; 
+	border-radius: 1px;
+}
+button.number, .button.number0 {
+	background-color:  #242933;
+}
+.item-number0{
+    width: 162px;
+}
+.item-system-chia, .item-system-nhan, .item-system-tru, .item-system-cong, .item-system-bang{
+    background-color: #0060E5;
+
+}
+button.refresh, button.del, button.percent{
+	background-color:  #363E4D;
+
+}
+
+button.dot {
+	background-color: #242933;
+}
+
+.footer{
+    border-radius: 100px;
+    background: #FFFFFF;
+    width: 200px;
+    height: 5px;
+    margin: auto;
+}
+
+
