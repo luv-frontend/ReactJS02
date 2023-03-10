@@ -1,0 +1,210 @@
+body {
+
+    max-width: 1200px;
+    margin-top: 100px;
+
+}
+
+.ip13 {
+
+    width: 375px;
+    height: 812px;
+    margin-left: 440px;
+    background: #161A20;
+    border-radius: 34px;
+}
+
+.top {
+    position: absolute;
+    width: 219px;
+    height: 30px;
+    left: 521px;
+    top: 100px;
+}
+
+.foot {
+    position: absolute;
+    width: 134px;
+    height: 5px;
+    left: 569px;
+    top: 882px;
+
+    border-radius: 100px;
+}
+
+.manhinh {
+
+    position: absolute;
+    padding: 0px;
+
+    width: 318px;
+    height: 148px;
+    left: 452px;
+    top: 156px;
+    color: #fff;
+    text-align: center;
+    word-wrap: break-word;
+
+}
+
+.text-manhinh {
+    font-size: 40px;
+    padding: 25px;
+}
+
+.result-input-before {
+
+    width: 375px;
+    height: 96px;
+    margin-left: 440px;
+    margin-top: -552px;
+    word-wrap: break-word;
+    background: #20252E;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.btn-sys {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 33px;
+    gap: 10px;
+
+    position: absolute;
+    width: 83px;
+    height: 79px;
+    background: #363E4D;
+    border-radius: 8px 2px 2px 2px;
+}
+
+.btn-num {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 33px;
+    gap: 10px;
+
+    position: absolute;
+    width: 83px;
+    height: 79px;
+
+
+    background: #242933;
+    border-radius: 2px;
+}
+
+.btn-ac {
+    left: 460px;
+    top: 465px;
+}
+
+.btn-7 {
+    left: 460px;
+    top: 548px;
+}
+
+.btn-4 {
+    left: 460px;
+    top: 631px;
+}
+
+.btn-1 {
+    left: 460px;
+    top: 714px;
+}
+
+.btn-0 {
+    width: 170px;
+    height: 79px;
+    left: 460px;
+    top: 797px;
+
+}
+
+.btn-congtru {
+    left: 547px;
+    top: 465px;
+}
+
+.btn-deci {
+    left: 634px;
+    top: 465px;
+}
+
+.btn-chia {
+    left: 721px;
+    top: 465px;
+    background: #0060E5;
+}
+
+.btn-8 {
+    left: 547px;
+    top: 548px;
+}
+
+.btn-9 {
+    left: 634px;
+    top: 548px;
+}
+
+.btn-nhan {
+    left: 721px;
+    top: 548px;
+    background: #0060E5;
+}
+
+.btn-5 {
+    left: 547px;
+    top: 631px;
+}
+
+.btn-6 {
+    left: 634px;
+    top: 631px;
+}
+
+.btn-tru {
+    left: 721px;
+    top: 631px;
+    background: #0060E5;
+}
+
+.btn-2 {
+    left: 547px;
+    top: 714px;
+}
+
+.btn-3 {
+    left: 634px;
+    top: 714px;
+}
+
+.btn-cong {
+    left: 721px;
+    top: 714px;
+    background: #0060E5;
+}
+
+.btn-cham {
+
+    left: 634px;
+    top: 797px;
+
+}
+
+.btn-bang {
+
+    left: 721px;
+    top: 797px;
+    background: #0060E5;
+}
+
+.btn-sys.btn-sys:hover,
+.btn-num:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
