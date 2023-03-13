@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <form>
+      <label>Name</label>
+      <input
+        id="input-name"
+        type="text"
+        data-valid-type="required"
+        data-error="Name is required"
+        placeholder="VD: Nguyễn Văn A"
+      />
+      <p id="mess-name"></p>
+      <label>Email</label>
+      
+      <input
+        id="input-email"
+        type="text"
+        data-valid-type="required | email"
+        data-error="Email is required | Email is invalid"
+        placeholder="VD: abc@gmail.com"
+      />
+      <p id="mess-email"></p>
+      <label>Phone</label>
+      <input
+        id="input-number"
+        type="text"
+        data-valid-type="required | phone"
+        data-error="Phone is required | Phone is invalid"
+        placeholder="VD: 0912345678"
+      />
+      <p id="mess-number"> </p>
+      <!-- Requiments -->
+      <!-- 1. After focus out the input must be validate -->
+      <!-- 2. Show error in the bellow input with message that get from data-error if input not match with codition -->
+      <!-- Phone must valid with number phone in Vietnam includes: mobile, vina, viettel -->
+    </form>
+    <script src="form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+:root{
+    --backgroundBody-color: #78c3d0;
+    --color-text: #181616;
+    --color-text--err: #c81010;
+     
+}
+body{
+    background-color: #78c3d0;
+}
+p{
+    height: 30px;
+    margin-left: 30px;
+}
+label{
+    font-size: 18px;
+    margin-top: 20px;
+    
+}
+
+input{
+    width: 250px;
+    height: 25px;
+
+}
+#input-number{
+    width: 170px;
+}
+ 
